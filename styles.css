@@ -1,12 +1,35 @@
 * {
-    color: green;
+    color: magenta;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     color: red;
 }
 
-#unique-id {
-    color: rgb(1, 1, 1)
+img{
+    max-width: 90%;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+@keyframes change {
+    from {background-color: lightyellow;}
+    to {background-color: lightpink;}
+}
+
+div {
+    width: 1000px;
+    height: 10px;
+    position: relative;
+    background-color: lightyellow;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
