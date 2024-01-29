@@ -10,6 +10,29 @@ p{
     color: red;
 }
 
+#hidden-message{
+    display: none;
+}
+
+button{
+    color:darkred;
+    background-color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#reveal-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:active {
+        background-color: darkgreen;
+    }
+}
+
 img{
     max-width: 90%;
 }
