@@ -1,4 +1,5 @@
 
 document.getElementById("reveal-button").addEventListener("click", function(){
-    document.getElementById("hidden-message").style.display = 'block';
+    document.getElementById("hiddenmessage").style.display = 'block';
+    this.textContent = "Received!"
 });
