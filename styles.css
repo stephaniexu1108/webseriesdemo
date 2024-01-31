@@ -62,3 +62,14 @@ div {
     animation-iteration-count: infinite;
 }
 
+
+@keyframes rotateLeftRight {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(-120deg); }
+    100% { transform: rotate(120deg); }
+}
+
+.rotating-image {
+    margin: 5px;
+    animation: rotateLeftRight 3s infinite;
+}
